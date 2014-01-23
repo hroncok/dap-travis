@@ -1,0 +1,10 @@
+package_name: travis
+version: 0.0.1dev
+license: ISC
+authors: [Miro Hrončok <miro@hroncok.cz>]
+homepage: https://github.com/hroncok/dap-travis
+summary: Adds Travis CI to your projects
+bugreports: https://github.com/hroncok/dap-travis/issues
+description: |
+    This mod assistant allows Travis CI for you project.
+    Your project has to be on GitHub already.

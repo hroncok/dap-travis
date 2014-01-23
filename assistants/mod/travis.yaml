@@ -1,0 +1,5 @@
+travis:
+  fullname: Travis CI
+  description: Enables Travis CI for your project
+  dependencies:
+  - gem: [travis]
