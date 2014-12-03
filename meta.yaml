@@ -6,5 +6,19 @@ homepage: https://github.com/hroncok/dap-travis
 summary: Adds Travis CI to your projects
 bugreports: https://github.com/hroncok/dap-travis/issues
 description: |
-    This mod assistant allows Travis CI for you project.
-    Your project has to be on GitHub already.
+    This mod assistant allows
+    [Travis CI](https://travis-ci.org/) for you project.
+    Your project has to be already on GitHub.
+    
+    Run `da mod travis [-p <path>]` and DevAssistant will
+    check if the current working directory or path specified
+    by `-p` is a git repository with GitHub *remote* specified.
+    
+    If so, it will allow Travis checks for your project and add
+    `.travis.yml` (if not already present) with default content
+    for language guessed from `.devassistant`, or blank when
+    `.devassistant` is not available.
+    
+    ### More options:
+    
+     * `--url` - changes Travis CI URL, default https://travis-ci.org/
